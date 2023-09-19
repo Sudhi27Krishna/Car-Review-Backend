@@ -1,7 +1,7 @@
 const Review = require("../models/Review");
 
 const getReviewByCar = async (req, res) => {
-    const { car_name } = req.body;
+    const {car_name} = req.query;
     try {
         const reviewFound = await Review.find({ car_name });
         res.status(200).json(reviewFound);

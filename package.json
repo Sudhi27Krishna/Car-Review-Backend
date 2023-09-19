@@ -1,0 +1,18 @@
+{
+  "name": "car_review_backend",
+  "version": "1.0.0",
+  "description": "Add on course group project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Sudhi Krishna N A",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
